@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block title%}Lesson{% endblock %}
+{% block content %}
+
+<style>
+    body {
+  background-blend-mode: multiply;
+  background-image: url();
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+ <head>
+  <meta charset="utf-8">
+  <title>Список</title>
+ </head>
+ <body>
+ <div class="row justify-content-center card-body ">
+  <form>
+   <p style="color: Dark;">Преподаватель</p>
+   <p><select style="width: 275px" name="food">
+    <!--<optgroup label="Русская кухня"> -->
+     <option value="r1">Шуманов Игорь Витальевич</option>
+     <option value="r2">Семикова Елизавета Петрова</option>
+     <option value="r3">Шумков Данил Иванович</option>
+     <option value="r4">Авдиев Артём Максимович</option>
+     <option value="r5">Звелушина Злата Геннадьевна</option>
+    </optgroup>
+   </select></p>
+  </form>
+  </div>
+ <div class="row justify-content-center card-body ">
+  <form>
+    <p style="color: Dark; margin-top: -1.5em;">Время занятий</p>
+   <p><select  style="width: 275px" name="food">
+     <option value="r1">10:00-11:30</option>
+     <option value="r2">12:00-13:30</option>
+     <option value="r3">14:00-15:30</option>
+     <option value="r4">16:00-17:30</option>
+     <option value="r5">18:30-20:00</option>
+     <option value="r6">20:10-21:10</option>
+    </optgroup>
+   </select></p>
+  </form>
+  </div>
+ <!--<div class="row justify-content-center card-body "  style="color: Dark;  margin-top: -1.5em; ">
+     <input name="guruweba_example_week" type="week" />
+ </div>-->
+ <div class="row justify-content-center card-body ">
+  <form>
+    <p style="color: Dark;  margin-top: -1.5em;">Тема</p>
+   <p><select style="width: 275px" name="food">
+     <option value="r1">Финансовая грамотность</option>
+     <option value="r2">Формирование бизнес плана</option>
+     <option value="r3">Лидерские качества</option>
+     <option value="r4">Коммунакция </option>
+     <option value="r5">Бизнес в кризис</option>
+     <option value="r7">MBA</option>
+     <option value="r8">Маркетинг</option>
+     <option value="r9">Бизнес-аналитика</option>
+     <option value="r10">Логистика и закупки</option>
+     <option value="r11">Продажи</option>
+     <option value="r12">Управление персоналом</option>
+     <option value="r13">Фасилитация</option>
+    </optgroup>
+   </select></p>
+   <p><input type="submit" class="btn btn-secondary button-wrapper"  value="Записаться"></p>
+  </form>
+  </div>
+ </body>
+{% endblock %}

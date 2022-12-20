@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title%}Lesson{% endblock %}
+{% block content %}
+<style>
+body {
+  background-blend-mode: multiply;
+  background-image: url(https://adonius.club/uploads/posts/2022-05/1653170620_59-adonius-club-p-oboi-ucheba-krasivie-73.jpg);
+  background-position: top;
+  background-color: Dark;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body><div class="container col-12" style="display:flex;justify-content:space-between;">
+    <div class="card col-12">
+        <div class="card-body">
+            <h3 class="text-center">Лекции</h3>
+            <p>Введите код, полученный на уроке для получения конспекта</p>
+            <input name="guruweba_example_email" type="email" />
+            <input name="guruweba_example_reset" type="reset" value="Активировать" />
+        </div>
+    </div>
+</body>
+
+</div>
+
+{% endblock %}
